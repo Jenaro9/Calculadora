@@ -36,7 +36,7 @@ Equal.addEventListener("click", (e) => {
   try {
     display.textContent = eval(expresion);
   } catch {
-    display.textContent = "Syntax error :(";
+    display.textContent = "Syntax error";
   } finally {
     expresion = eval(expresion);
   }
